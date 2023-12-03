@@ -6,11 +6,11 @@
   "license": "MIT",
   "homepage": "https://github.com/K-Phoen/backstage-plugin-opsgenie",
   "bugs": {
-    "url": "https://github.com/K-Phoen/backstage-plugin-opsgenie/issues"
+    "url": "https://github.com//backstage-plugin-opsgenie/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/K-Phoen/backstage-plugin-opsgenie.git"
+    "url": "git+http://github.com/estehsan/plugin"
   },
   "publishConfig": {
     "access": "public",
