@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js 14.x
+      - name: Use Noyarn de.js 14.x
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
-          cache: 'yarn'
+          node-version: "14"
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install
@@ -33,5 +33,5 @@ jobs:
           tag_message: "v%s"
           commit_pattern: "^Release (\\S+)"
         env: # More info about the environment variables in the README
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
