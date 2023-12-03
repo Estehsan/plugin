@@ -2747,6 +2747,27 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@k-phoen/backstage-plugin-opsgenie@1.0.0":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@k-phoen/backstage-plugin-opsgenie/-/backstage-plugin-opsgenie-0.6.6.tgz#16ed8537ae012019225bfc7f7319bd80df9d9963"
+  integrity sha512-85juL5Sy/xhsm3DwW/SzjKIE9ye6XOKZSaCi06mt3lyiIqL95d4OHutBosXCw6NZLxNP7z62BnOzX8BOvByW/A==
+  dependencies:
+    "@backstage/catalog-model" "^1.2.0"
+    "@backstage/core-components" "^0.12.4"
+    "@backstage/core-plugin-api" "^1.4.0"
+    "@backstage/plugin-catalog-react" "^1.3.0"
+    "@backstage/theme" "^0.2.17"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.45"
+    dom-to-image "^2.6.0"
+    history "^5.0.0"
+    js-file-download "^0.4.12"
+    moment "^2.29.1"
+    react-use "^17.2.4"
+    recharts "^2.1.6"
+    string-to-color "^2.2.2"
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
