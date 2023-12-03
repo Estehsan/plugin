@@ -15,6 +15,7 @@
   "publishConfig": {
     "access": "public",
     "main": "dist/index.esm.js",
+    "registry": "https://npm.pkg.github.com",
     "types": "dist/index.d.ts"
   },
   "backstage": {
